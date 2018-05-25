@@ -1,0 +1,18 @@
+#terms .modal-dialog,
+#privacy .modal-dialog,
+#contact .modal-dialog {
+  max-width: 1000px;
+}
+
+.socks-char {
+  position: relative;
+  width: 60px;
+  right: 10px;
+  top: -3px;
+}
+
+.preamble h3 {
+  font-family: 'Slackey', cursive;
+  font-weight: 300;
+  color: #1964a1;
+}
