@@ -500,7 +500,7 @@ a:hover {
     top: 0;
     bottom: 130px;
     width: 100%;
-    background-image: url(../images/hero-layer.png), url(../images/hero-layer-2.png);
+    background-image: url(https://seosocks.com/cdn/images/e65140/hero-layer.png), url(https://seosocks.com/cdn/images/5b1f88/hero-layer-2.png);
     background-position: left center, right bottom;
     background-repeat: no-repeat;
     z-index: auto;
@@ -588,7 +588,7 @@ a:hover {
     top: 0;
     width: 100%;
     height: 100%;
-    background: url(../images/hero-background.svg) no-repeat bottom left;
+    background: url(https://seosocks.com/cdn/images/43f8dc/hero-background.svg) no-repeat bottom left;
     background-size: cover;
     content: ""; }
     @media (max-width: 991px) {
@@ -619,11 +619,12 @@ a:hover {
       color: rgba(255, 255, 255, 0.85); }
     #main.main-2 .main-content__form {
       padding: 40px 45px;
-      margin-top: 140px;
+      margin-top: 76px;
       background: #fff;
       border-radius: 9px;
       -webkit-box-shadow: 0 4px 9px 0 rgba(23, 28, 33, 0.06);
-              box-shadow: 0 4px 9px 0 rgba(23, 28, 33, 0.06); }
+                  box-shadow: 0 4px 9px 0 rgba(23, 28, 33, 0.45);
+                  border: 2px solid #0f7bac; }
       @media (max-width: 991px) {
         #main.main-2 .main-content__form {
           margin-top: 0;
@@ -672,8 +673,8 @@ a:hover {
           border-right: none; }
     #main.main-2 .main-content .hero-image {
       position: absolute;
-      top: 0;
-      left: 0;
+      top: -54px;
+      left: -42px;
       -webkit-transform: translateY(-216px);
               transform: translateY(-216px);
       max-width: 110%; }
@@ -1780,7 +1781,7 @@ a:hover {
       color: #6b7c93; }
   #footer.footer-2 .footer__logo {
     margin-bottom: 20px;
-    max-height: 50px; }
+    max-height: 100px; }
   #footer.footer-2 .footer__copyrights {
     margin-bottom: 0;
     font-size: 13px; }
@@ -2485,3 +2486,17 @@ a:hover {
         max-height: 150px; }
 
 /*# sourceMappingURL=main.css.map */
+
+.socks-char {
+    position: relative;
+    width: 60px;
+    right: 10px;
+    top: -3px;
+}
+
+.preamble  h3 {
+  font-family: 'Slackey', cursive;
+  font-weight: 300;
+  color: #1964a1;
+}
+
