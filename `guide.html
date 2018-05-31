@@ -21,3 +21,38 @@ test
     transform: translate(0,0);
     max-width: 900px;
 }
+    
+    
+    <% include('/block/base/button/cta) %>
+    
+    
+    <a href="#" class="btn btn--green btn--lg mb-0 mt-4 d-inline-flex align-items-center">Test Your Site</a>
+                
+                
+                
+                
+                
+                <% for employee in employees %>
+										<tr>
+											<td><$ employee.task $></td>
+											<td class="text-center"><$ employee.designer $></td>
+											<td class="text-center"><span class="<$ employee.activeClass $>"><$ employee.designstatus $></span></td>
+											<td class="text-center"><$ employee.developer $></td>
+											<td class="text-center"><span class="<$ employee.activeClass2 $>"><$ employee.devstatus $></span></td>
+										</tr>
+									<% endfor %>
+                
+                
+                
+                
+                title: Dashboard
+employees:
+    -
+        task: 'Content Management System (CMS)'
+        designer: 'Joven Sampang'
+        designstatus: Done
+        activeClass: 'badge badge-primary'
+        developer: 'John Kobinski'
+        devstatus: Active
+        activeClass2: 'badge badge-success'
+    -
